@@ -42,7 +42,8 @@ body,
 }
 
 .footer a i,
-.footer-link {
+.footer-link,
+.footer-link a {
     color: var(--black);
 }
 
@@ -70,7 +71,7 @@ body,
 .photo {
     opacity: 1;
     display: block;
-    width: 99%;
+    width: 100%;
     height: auto;
     transition: .5s ease;
     backface-visibility: hidden;
