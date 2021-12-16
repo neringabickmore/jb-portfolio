@@ -208,7 +208,6 @@ if 'USE_CLOUDINARY' in os.environ:
     CLOUDINARY_URL = os.environ.get('CLOUDINARY_URL')
 
     CLOUDINARY_DOMAIN_NAME = os.environ.get('CLOUDINARY_DOMAIN_NAME')
-    MEDIA_URL = f'https://{CLOUDINARY_DOMAIN_NAME}/'
 
     # static files
     STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
