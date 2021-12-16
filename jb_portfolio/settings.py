@@ -206,6 +206,7 @@ if 'USE_CLOUDINARY' in os.environ:
     # media files
     DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
     CLOUDINARY_URL = os.environ.get('CLOUDINARY_URL')
+    MEDIA_URL = os.environ.get('MEDIA_URL')
 
     # static files
     STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
